@@ -2,7 +2,7 @@
 
 **GoHenry** is a small, friendly **hobby vehicle tracker** for up to **5 cars across
 5 phones**. It shows each car's live status (state of charge / fuel, range, location,
-ignition, charging), pushes you a notification when a car **starts a trip, parks,
+ignition, charging via the Ford API), pushes you a notification when a car **starts a trip, parks,
 starts/finishes charging, hits a charge fault, or loses signal mid-trip**, and keeps a
 tidy on-device history you can scroll back through.
 
