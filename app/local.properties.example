@@ -1,0 +1,8 @@
+# Copy to local.properties and fill in your local values.
+# Windows Android SDK path must be escaped for Gradle properties syntax.
+sdk.dir=C\:\\Users\\terrenca\\AppData\\Local\\Android\\Sdk
+
+# Backend Azure Functions base URL. The emulator can reach the host on 10.0.2.2.
+backend.baseUrl=http://10.0.2.2:7071/api/
+backend.userId=
+backend.functionKey=

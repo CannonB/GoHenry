@@ -1,0 +1,10 @@
+# Local machine/backend configuration
+local.properties
+
+# Replace with your own Firebase project before release.
+app/google-services.json
+
+# Build outputs
+.gradle/
+build/
+app/build/

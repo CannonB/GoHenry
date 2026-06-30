@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GoHenry.Api/GoHenry.Api.csproj" />
+    <Project Path="src/GoHenry.Core/GoHenry.Core.csproj" />
+    <Project Path="src/GoHenry.FordClient/GoHenry.FordClient.csproj" />
+    <Project Path="src/GoHenry.Storage/GoHenry.Storage.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GoHenry.Tests/GoHenry.Tests.csproj" />
+  </Folder>
+</Solution>

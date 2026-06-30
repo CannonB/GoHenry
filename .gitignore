@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+# GoHenry .gitignore — keeps secrets and build junk out of the public repo.
+# (Comments must be on their own line; Git does NOT support inline comments.)
+# ---------------------------------------------------------------------------
+
+# --- Secrets / machine-local config (NEVER commit to a public repo) ---
+# Azure Functions: connection strings, storage keys, Key Vault refs
+local.settings.json
+# Android SDK path (machine-specific)
+local.properties
+# Firebase config — each developer brings their own before building
+**/google-services.json
+*.keystore
+*.jks
+.env
+.env.*
+secrets.json
+
+# --- .NET / Azure Functions build output ---
+**/bin/
+**/obj/
+*.user
+
+# --- Android / Gradle build output ---
+.gradle/
+**/build/
+*.iml
+captures/
+.cxx/
+
+# --- IDE / editor ---
+.idea/
+.vs/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
